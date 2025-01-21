@@ -199,6 +199,8 @@ void ProcessWidget::Run_click(wxCommandEvent& event)
 		}
 		else
 		{
+			run_btn->SetBackgroundColour(grey);
+			kill_btn->SetBackgroundColour(grey);
 			LogErrorProcSuspended();
 		}
 	}
@@ -222,6 +224,8 @@ void ProcessWidget::Run_click(wxCommandEvent& event)
 		}
 		else
 		{
+			run_btn->SetBackgroundColour(grey);
+			kill_btn->SetBackgroundColour(grey);
 			LogErrorProcResumed();
 		}
 	}
@@ -247,6 +251,8 @@ void ProcessWidget::Kill_click(wxCommandEvent& event)
 	}
 	else
 	{
+		kill_btn->SetBackgroundColour(grey);
+		run_btn->SetBackgroundColour(grey);
 		LogErrorProcKilled();
 	}
 }
