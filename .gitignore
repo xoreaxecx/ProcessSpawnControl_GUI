@@ -1,1 +1,7 @@
 .vs/
+DetachingLoader/Debug/
+DetachingLoader/Release/
+DetachingLoader/x64/
+ProcessSpawnControl_GUI/Debug/
+ProcessSpawnControl_GUI/Release/
+ProcessSpawnControl_GUI/x64/
